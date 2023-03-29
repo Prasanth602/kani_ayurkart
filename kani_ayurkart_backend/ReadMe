@@ -1,0 +1,54 @@
+Port number > 9095
+
+
+POST: Add customer =================================================
+
+URL: http://localhost:9095/CreateUser/createUserDtls
+
+Body : Raw : JSON
+{
+    "firstName": "hussain",
+    "lastName": "Md",
+    "emailId": "ms.hussian@gmail.com",
+    "password": "hai@1234"
+}
+
+
+
+
+
+Login User =========================================================
+
+Get : Validate User
+
+URL: http://localhost:9095/CreateUser/userLogin
+
+{
+	"emailId": "ms.hussian@gmail.com",
+    "password": "hai@1234"
+}
+
+
+
+
+
+
+==========================================================================================
+Dependencies: --------------------------------------------------- 
+Log4J dependency: 
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		
+GSON Dependency: 
+
+<!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.10</version>
+		</dependency>
+		
