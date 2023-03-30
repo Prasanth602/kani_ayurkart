@@ -1,0 +1,28 @@
+.top-nav{
+    background-color: rgb(173, 195, 173);
+    padding: 0 5rem;
+    height: 28px;
+    display: flex;
+    justify-content:space-between;
+}
+.top-nav-left{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+ .top-nav-left-item{
+    display: flex;
+    align-items: center;
+} 
+ .top-nav-right{
+    background-color: var(--secondary-color);
+    display: flex;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+} 
+.link{
+    color: #000;
+    text-decoration: none;
+}

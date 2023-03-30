@@ -1,0 +1,23 @@
+form,h2{
+    max-width: 20rem;
+    margin: 0 auto;
+}
+h2{
+    padding: 1rem 0 ;
+}
+input{
+    width: 100%;
+    margin-bottom: 2rem;
+  
+}
+.submit-btn{
+    border: none;
+    color: #ffff;
+    background-color: var(--primary-color);
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.forgot-password{
+    text-align: center;
+}
