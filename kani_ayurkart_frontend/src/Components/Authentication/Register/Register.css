@@ -10,6 +10,9 @@ input{
     margin-bottom: 2rem;
   
 }
+input:focus{
+    outline: none;
+}
 .submit-btn{
     border: none;
     color: #ffff;
@@ -17,6 +20,9 @@ input{
     padding: 8px 12px;
     border-radius: 5px;
     cursor: pointer;
+}
+.submit-btn:hover{
+    opacity: 0.8;
 }
 .forgot-password{
     text-align: center;

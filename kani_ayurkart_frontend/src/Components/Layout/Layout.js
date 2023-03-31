@@ -3,6 +3,7 @@
  import Header from '../Header/Header'
  import Navbar from '../Navbar/Navbar'
 import ImageSlider from "../Imagesider/ImageSlider";
+import Description from "../Description/Description";
  function Layout (){
     return(
         <>
@@ -10,6 +11,7 @@ import ImageSlider from "../Imagesider/ImageSlider";
             <Header/>
             <Navbar/>
             <ImageSlider/>
+            <Description/>
         </>
     )
  }

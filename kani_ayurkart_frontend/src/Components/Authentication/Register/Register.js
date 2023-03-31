@@ -4,19 +4,19 @@ import Topbar from '../../Topbar/Topbar';
 import Navbar from '../../Navbar/Navbar';
 import axios from 'axios';
 import './Register.css';
-// import { useNavigate } from 'react-router-dom';
+ import { useNavigate } from 'react-router-dom';
 
 function Register(){
 
-    // let navigate =useNavigate()
+     let navigate =useNavigate()
     const [user, setUser] = useState({
-        firstname:'',
-        lastname:'',
-        email:'',
+        firstName:'',
+        lastName:'',
+        emailId:'',
         password:''
 
     });
-    const {firstname, lastname, email, password} = user;
+    const {firstName, lastName, emailId, password} = user;
 
     const onInputChange= (e)=>{
         setUser({...user, [e.target.name]:e.target.value})
@@ -28,7 +28,7 @@ function Register(){
         await axios.post("http://localhost:9097/CreateUser/createUserDtls", user)
         .then((response) => console.log(response))
         .catch((err)=>console.log(err));
-        // navigate("/");
+         navigate("/Login");
     }
  return (
     <>
@@ -40,24 +40,28 @@ function Register(){
         </h2>
         <form onSubmit={(e)=>onSubmit(e)}>
             <input type="text"
+            className='mb-3 p-1'
              placeholder='First Name'
               onChange={(e)=>onInputChange(e)} 
-              name="firstname" 
-              value={firstname}></input><br/>
+              name="firstName" 
+              value={firstName}></input><br/>
 
             <input type="text"
+            className='mb-3 p-1'
              placeholder='Last Name' 
              onChange={(e)=>onInputChange(e)}
-             name="lastname"
-             value={lastname}></input><br/>
+             name="lastName"
+             value={lastName}></input><br/>
 
             <input type="email"
+            className='mb-3 p-1'
              placeholder='Email' 
              onChange={(e)=>onInputChange(e)}
-             name="email"
-             value={email}></input><br/>
+             name="emailId"
+             value={emailId}></input><br/>
 
-            <input type="password" 
+            <input type="password"
+            className='mb-3 p-1' 
             placeholder='Password' 
             onChange={(e)=>onInputChange(e)}
             name="password"

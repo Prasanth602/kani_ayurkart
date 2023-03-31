@@ -14,12 +14,17 @@ function Login(){
         <Navbar/>
         <h2>Login</h2>
         <form>
-            <input type="email" placeholder="Email">
+            <input type="email" 
+            placeholder="Email"
+            className='mb-3 p-1' >
             </input>
-            <input type="password" placeholder="Password">
+            <input type="password" 
+            placeholder="Password"
+            className='mb-3 p-1' >
 
             </input>
-            <button type="submit" className="submit-btn">
+            <button type="submit"
+             className="submit-btn mb-2">
                     Login
             </button>
         </form>

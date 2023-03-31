@@ -1,0 +1,9 @@
+.description-area{
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+.description-area p{
+    font-size: .8rem;
+}

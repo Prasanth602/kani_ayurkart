@@ -9,7 +9,7 @@ return(
         <div className="logo">
             Ayurkart
         </div>
-        <div className="search-bar">
+        <div className="search-bar f-1">
             <input type="search" placeholder="search"></input>
             <span className="search-icon"><FaSearch/></span>
         </div>
