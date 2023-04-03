@@ -1,0 +1,28 @@
+.medicine-dropdown{
+    z-index: 999;
+    position: absolute;
+    background-color: #fff;
+    top: 2.7rem;
+
+}
+
+.medicine-dropdown-list{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border: 1px solid #777;
+    list-style-type: none;
+
+}
+.list-item{
+    padding: .5rem;
+    border-bottom: .5px solid #777;
+    cursor: pointer;
+
+}
+.list-item a{
+    text-decoration: none;
+    color: #000;
+    font-size: .8rem;
+
+}

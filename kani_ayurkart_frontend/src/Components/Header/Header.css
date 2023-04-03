@@ -8,6 +8,10 @@
 .logo{
     font-size: 3rem;
     color: var(--secondary-color);
+    text-decoration: none;
+}
+.logo:hover{
+    color: var(--secondary-color);
 }
 .search-bar{
     width: 250px;
@@ -20,6 +24,5 @@
     background-color: var(--primary-color);
     color: #fff;
     padding: .2rem .5rem;
-    border-radius: 0 4px 4px 0;
     cursor: pointer;
 }

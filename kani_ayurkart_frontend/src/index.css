@@ -12,7 +12,7 @@ code {
     monospace;
 }
 :root{
-  --secondary-color:#399;
+  --secondary-color:#075159;;
   --primary-color:#f99011;
-
+  --footer-color:#0000;
 }

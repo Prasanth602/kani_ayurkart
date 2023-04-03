@@ -1,17 +1,11 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-import Header from '../../Header/Header';
-import Navbar from '../../Navbar/Navbar';
-import Topbar from '../../Topbar/Topbar';
 import '../Register/Register.css'
 import './Login.css';
 
 function Login(){
      return (
         <>
-        <Topbar/>
-        <Header/>
-        <Navbar/>
         <h2>Login</h2>
         <form>
             <input type="email" 
@@ -29,7 +23,7 @@ function Login(){
             </button>
         </form>
         <p className="forgot-password">
-            <Link to="/">
+            <Link to="/ForgotPassword">
                 Forgot Password
             </Link>
             <span className="or">Or</span>
