@@ -18,6 +18,7 @@
     padding: .8rem;
     font-size: 12px;
     font-weight: bold;
+    position: relative;
 }
 .nav-item:hover{
     background-color: var(--primary-color);
@@ -30,3 +31,8 @@
 .nav-item a:hover{
     color: #ffff;
 }
+ .active{
+    background-color: var(--primary-color);
+    color: #ffff; 
+    /* padding: .8rem; */
+} 
